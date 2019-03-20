@@ -61,7 +61,7 @@ public class KMP {
 		return next;
 	}
 	
-	//得到子字符串next值
+	//得到子字符串pmt值
 	private int get_value(String str) {
 		
 		for (int i = str.length()-1; i >0; i--) {
